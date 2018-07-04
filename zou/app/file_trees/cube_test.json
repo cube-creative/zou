@@ -1,6 +1,6 @@
 {
     "working": {
-        "mountpoint": "/P",
+        "mountpoint": "P:",
         "root": "productions",
         "folder_path": {
             "shot": "<Project>/shots/<Sequence>/<Shot>/<TaskType>/<Software>",
@@ -18,7 +18,7 @@
         }
     },
     "output": {
-        "mountpoint": "/P",
+        "mountpoint": "P:",
         "root": "productions/export",
         "folder_path": {
             "shot": "<Project>/shots/<Sequence>/<Shot>/<TaskType>/<OutputType>",

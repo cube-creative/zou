@@ -1,10 +1,10 @@
 {
     "wip": {
         "mountpoint": "P:",
-        "root": "production",
+        "root": "",
         "folder_path": {
-            "shot": "<Project>/shots/<Episode_Name>/<Sequence>/<Shot>/<TaskType>/wip>",
-            "asset": "<Project>/assets/<AssetType>/<Asset>/<TaskType>/wip",
+            "shot": "<Project>/production/shots/<Episode_Name>/<Sequence>/<Shot>/<TaskType>/wip>",
+            "asset": "<Project>/production/assets/<AssetType>/<Asset>/<TaskType>/wip",
             "style": "lowercase"
         },
         "file_name": {
@@ -15,10 +15,10 @@
     },
     "release": {
         "mountpoint": "P:",
-        "root": "production",
+        "root": "",
         "folder_path": {
-            "shot": "<Project>/shots/<Episode_Name>/<Sequence>/<Shot>/<TaskType>/release/v<Version>",
-            "asset": "<Project>/assets/<AssetType>/<Asset>/<TaskType>/release/v<Version>",
+            "shot": "<Project>/production/shots/<Episode_Name>/<Sequence>/<Shot>/<TaskType>/release/v<Version>",
+            "asset": "<Project>/production/assets/<AssetType>/<Asset>/<TaskType>/release/v<Version>",
             "style": "lowercase"
         },
         "file_name": {

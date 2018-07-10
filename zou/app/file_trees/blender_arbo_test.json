@@ -8,8 +8,8 @@
             "style": "lowercase"
         },
         "file_name": {
-            "shot": "e<Episode>-s<Sequence>-p<Shot>-<TaskType>-v<Version>",
-            "asset": "<Asset>-<TaskType>-v<Version>",
+            "shot": "e<Episode>-s<Sequence>-p<Shot>-<TaskType>-v<Version>.blend",
+            "asset": "<Asset>-<TaskType>-v<Version>.blend",
             "style": "lowercase"
         }
     },
@@ -22,8 +22,8 @@
             "style": "lowercase"
         },
         "file_name": {
-            "shot": "e<Episode_Number>-s<Sequence>-p<Shot>-<TaskType>",
-            "asset": "<Asset>-<TaskType>",
+            "shot": "e<Episode_Number>-s<Sequence>-p<Shot>-<TaskType>.blend",
+            "asset": "<Asset>-<TaskType>.blend",
             "style": "lowercase"
         }
     }

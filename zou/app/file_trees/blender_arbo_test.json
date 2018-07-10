@@ -1,24 +1,24 @@
 {
     "wip": {
         "mountpoint": "P:",
-        "root": "<Project>/production",
+        "root": "production",
         "folder_path": {
-            "shot": "shots/<Episode_Name>/<Sequence>/<Shot>/<TaskType>/<OutputType>",
-            "asset": "assets/<AssetType>/<Asset>/<TaskType>/<OutputType>",
+            "shot": "<Project>/shots/<Episode_Name>/<Sequence>/<Shot>/<TaskType>/<OutputType>",
+            "asset": "<Project>/assets/<AssetType>/<Asset>/<TaskType>/<OutputType>",
             "style": "lowercase"
         },
         "file_name": {
-            "shot": "e<Episode_Number>-s<Sequence>-p<Shot>-<TaskType>-v<Version>",
+            "shot": "e<Episode>-s<Sequence>-p<Shot>-<TaskType>-v<Version>",
             "asset": "<Asset>-<TaskType>-v<Version>",
             "style": "lowercase"
         }
     },
     "release": {
         "mountpoint": "P:",
-        "root": "<Project>/production",
+        "root": "production",
         "folder_path": {
-            "shot": "shots/<Episode_Name>/<Sequence>/<Shot>/<TaskType>/<OutputType>/v<Version>",
-            "asset": "assets/<AssetType>/<Asset>/<TaskType>/<OutputType>/v<Version>",
+            "shot": "<Project>/shots/<Episode_Name>/<Sequence>/<Shot>/<TaskType>/<OutputType>/v<Version>",
+            "asset": "<Project>/assets/<AssetType>/<Asset>/<TaskType>/<OutputType>/v<Version>",
             "style": "lowercase"
         },
         "file_name": {

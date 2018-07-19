@@ -7,7 +7,7 @@
             "asset": "<Project>/production/assets/<AssetType>/<Asset>/<TaskType>/wip"
         },
         "file_name": {
-            "shot": "e<Episode>-s<Sequence>-p<Shot>-<TaskType>-v<Version>",
+            "shot": "<Episode>-<Sequence>-<Shot>-<TaskType>-v<Version>",
             "asset": "<Asset>-<TaskType>-v<Version>"
         }
     },
@@ -19,7 +19,7 @@
             "asset": "<Project>/production/assets/<AssetType>/<Asset>/<TaskType>/release/v<Version>"
         },
         "file_name": {
-            "shot": "e<Episode_Number>-s<Sequence>-p<Shot>-<TaskType>",
+            "shot": "<Episode_Number>-<Sequence>-<Shot>-<TaskType>",
             "asset": "<Asset>-<TaskType>"
         }
     }
